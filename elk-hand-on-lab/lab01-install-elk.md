@@ -87,6 +87,7 @@ Trước tiên, cần khai báo mapping cho index. Việc này giống như chú
             }
         }
     }
+
     ```
 
 - Thực hiện sử dụng lệnh CURL để tạp mapping cho index có tên là `shakespeare` theo lệnh dưới.

@@ -25,7 +25,7 @@ apt-get -y install openjdk-8-jre-headless
 apt-get -y install elasticsearch 
 
 sed -i 's/#cluster.name: my-application/cluster.name: my-application/g' /etc/elasticsearch/elasticsearch.yml
-sed -i 's/#network.host: 192.168.0.1/network.host: X.Y.Z.W/g' /etc/elasticsearch/elasticsearch.yml
+sed -i 's/#network.host: 192.168.0.1/network.host: 0.0.0.0/g' /etc/elasticsearch/elasticsearch.yml
 sed -i 's/#http.port: 9200/http.port: 9200/g' /etc/elasticsearch/elasticsearch.yml
 echo "discovery.type: single-node" >> /etc/elasticsearch/elasticsearch.yml
 cp /etc/elasticsearch/jvm.options /etc/elasticsearch/jvm.options.bka
