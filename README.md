@@ -21,3 +21,5 @@
 - [ElasticSearch training materials](https://jruels.github.io/elastic/)
 - [advanced-elasticsearch-training](https://github.com/davidbkemp/advanced-elasticsearch-training)
 - [elk-stack](https://elkstack.courselabs.co/)
+- [This is a sample showing how to handle multiple inputs in Logstash](https://github.com/liu-xiao-guo/logstash_multi-input)
+- [TechBookHunter Free Elasticsearch Books](https://github.com/yanspirit/https-github.com-TechBookHunter-Free-Elasticsearch-Books)

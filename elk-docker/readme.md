@@ -14,7 +14,11 @@ Vắn tắt các bước trong bài trên như sau:
 sudo su
 
 cd /root
+```
 
+Kiểm tra thời gian `timedatectl`. Nếu chưa đúng thực hiện lệnh `timedatectl set-timezone Asia/Ho_Chi_Minh` để chỉnh về giờ Việt Nam. Sau đó thực hiện bước dưới.
+
+```
 wget https://gist.githubusercontent.com/congto/17f11864549e902ff23cffc6e5beb390/raw/b49956890a7f749e571bcd8eb0eb1a74b3457ca5/install_docker.sh
 
 chmod +x install_docker.sh
