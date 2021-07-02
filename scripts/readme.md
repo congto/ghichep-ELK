@@ -1,5 +1,13 @@
 ## Hướng dẫn sử dụng script
 
+### Môi trường
+
+Chuẩn bị môi trường:
+- Ubuntu Server 20.04 64 bit 
+- RAM: + 4GB
+- DISK: + 50BG
+- NIC: Có internet
+
 ### Script cài đặt ELK trên Ubuntu server 20.04
 
 Kiểm tra thời gian của máy chủ.

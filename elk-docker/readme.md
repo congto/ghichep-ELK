@@ -1,35 +1,40 @@
 ## Cài đặt ELK 7.x bằng docker-compose
 
+### Môi trường
+Chuẩn bị môi trường:
+- Ubuntu Server 20.04 64 bit 
+- RAM: + 4GB
+- DISK: + 50BG
+- NIC: Có internet
+
 ### Cài đặt cơ bản
 
 Lưu ý: Thực hiện cài đặt manual docker, docker-compose hoặc dùng script cài đặt docker tại bài này: 
-
-```
-https://hocchudong.com/scrip-cai-dat-docker-docker-compose-tren-ubuntu-centos/
-```
+   ```
+    https://hocchudong.com/scrip-cai-dat-docker-docker-compose-tren-ubuntu-centos/
+    ```
 
 Vắn tắt các bước trong bài trên như sau:
 
-```
-sudo su
+    ```
+    sudo su
 
-cd /root
-```
+    cd /root
+    ```
 
 Kiểm tra thời gian `timedatectl`. Nếu chưa đúng thực hiện lệnh `timedatectl set-timezone Asia/Ho_Chi_Minh` để chỉnh về giờ Việt Nam. Sau đó thực hiện bước dưới.
 
-```
-wget https://gist.githubusercontent.com/congto/17f11864549e902ff23cffc6e5beb390/raw/b49956890a7f749e571bcd8eb0eb1a74b3457ca5/install_docker.sh
+    ```
+    wget https://gist.githubusercontent.com/congto/17f11864549e902ff23cffc6e5beb390/raw/b49956890a7f749e571bcd8eb0eb1a74b3457ca5/install_docker.sh
 
-chmod +x install_docker.sh
+    chmod +x install_docker.sh
 
-bash install_docker.sh
-````
+    bash install_docker.sh
+    ````
 
 Thực hiện tải git và clone repo về.
 
 - Đối với Ubuntu: 
-
     ```
     apt update 
     apt install git -y
